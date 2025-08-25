@@ -4,12 +4,10 @@
 **Lectures**: 1310 Digital Computer Laboratory, WF: 11:00 AM – 12:15 PM
 | Member (NetID) | Role | Office Hours |
 | :---------------- | :--- | :----------- |
-| [Fan Lai](https://fanlai.me/) (fanlai) | Instructor | 3128 Siebel Center. W 2:00 PM – 3:00 PM
-| TBD | TAs |  TBD
+| [Fan Lai](https://fanlai.me/) (fanlai) | Instructor | 3128 Siebel Center. W 3:00 PM – 4:00 PM
+| [Jimmy Shong](https://jiminator.github.io/PersonalSite/) (jimmys2) <br> [Jamlee Jin](https://www.linkedin.com/in/jianlijin) (jianlij2) | TAs |  Zoom. F 2:00 PM - 3:00 PM
 
-**Piazza**:  *ALL* communication regarding this course must be via [Piazza](https://piazza.com/illinois/spring2025/cs598fla). This includes questions, discussions, announcements, as well as private messages.
-
-Presentation slides and paper summaries should be emailed to [cs498-aisys-staff@lists.cs.illinois.edu](mailto:cs498-aisys-staff@lists.cs.illinois.edu).
+**Piazza**:  *ALL* communication regarding this course must be via [Canvas](https://piazza.com/illinois/spring2025/cs598fla). This includes questions, discussions, announcements, assignments, as well as private messages.
 
 ## Course Description
 **Learning Objectives**: This course will introduce the basic concepts and cutting-edge practices in the design and implementation of efficient software systems for supporting machine learning (ML) models, with a particular focus on Generative AI (GenAI). By the end of the course, students will be able to:
@@ -29,43 +27,43 @@ Note that this course is **NOT focused on AI methods**.  Instead, we will *focus
 ## Tentative Schedule
 *This is an evolving list and subject to changes due to the breakneck pace of AI*
 
-| Date       | Topic                                  	            | Lecturer      | Slides | Assignment/Discussion |
+| Date       | Topic                                  	            | Lecturer      | Slides | Assignment/Summary |
 |------------|:------------------------------------------------------:|:-------------:|--------|------------------------|
 | Aug 27     | Course Introduction and Logistics                      | Fan Lai       |        |                        |
-| Aug 29     | Transformers                                           | Fan Lai   |        |                        |
+| Aug 29     | Transformers                                           | Jimmy Shong   |        |                        |
 | Sept 3     | Transformers Deep Dive                                 | Fan Lai       |        |                        |
-| Sept 5     | Distributed Training Overview                          | Fan Lai       |        |   [DeepSeek-V3 Report (Sec 1-3)](https://arxiv.org/abs/2407.21783)            |
+| Sept 5     | Distributed Training Overview                          | Fan Lai       |        |   [DeepSeek-V3 Report (Sec 1-3)](https://arxiv.org/abs/2412.19437)            |
 | Sept 10    | Data Parallelism                                       | Fan Lai       |        |                        |
 | Sept 12    | Tensor Parallelism                                     | Fan Lai       |        |   [LlamaRL](https://arxiv.org/abs/2505.24034)             |
-| Sept 17    | Pipeline Parallelism                                   | Fan Lai       |        |   Assignment 1 Release   |
+| Sept 17    | Pipeline Parallelism                                   | Fan Lai       |        |      |
 | Sept 19    | Multi‑Dimensional Parallelism                          | Fan Lai       |        |   [Alpa](https://www.usenix.org/system/files/osdi22-zheng-lianmin.pdf)                 |
-| Sept 24    | Mixed Precision Training                               | Fan Lai       |        |                        |
+| Sept 24    | Mixed Precision Training                               | Fan Lai       |        |    Assignment 1 Release                    |
 | Sept 26    | Memory Optimization                                    | Fan Lai       |        |   [ZeRO-style Data Parallelism](https://arxiv.org/abs/1910.02054)                  |
-| Oct 1      | Finetuning Techniques                                  | Fan Lai       |        |                       |
-| Oct 3      | Buffer                                     |        |        |   					     |
-| Oct 8      | Course Project Proposal Feedback                       | Fan Lai       |        |     Assignment 1 Due     |
+| Oct 1      | Finetuning Techniques                                  | Fan Lai       |        |  Project Proposal Due                     |
+| Oct 3      | Buffer                       |        |        |   					     |
+| Oct 8      | Course Project Proposal Feedback                       | Fan Lai       |        |          |
 | Oct 10     | Course Project Proposal Feedback                       | Fan Lai       |        |                        |
-| Oct 15     | Guest Lecture                                          |               |        |                        |
+| Oct 15     | Guest Lecture                                          |               |        |     Assignment 1 Due                   |
 | Oct 17     | Guest Lecture                                          |               |        |                        |
 | Oct 22     | Inference Overview                                     | Fan Lai       |        |   [Speculative Decoding](https://arxiv.org/abs/2211.17192) |
-| Oct 24     | Batch Serving techniques                               | Fan Lai       |        |   [DistServe](https://arxiv.org/abs/2401.09670)            |
-| Oct 29     | Paged Attention                                        | Fan Lai       |        |    Assignment 2 Release                    |
-| Oct 31     | Adaptive KV                                            | Fan Lai       |        |   [SGLang](https://arxiv.org/abs/2312.07104)               |
+| Oct 24     | Batch Serving Techniques                               | Fan Lai       |        |   [DistServe](https://arxiv.org/abs/2401.09670)            |
+| Oct 29     | Paged Attention                                        | Fan Lai       |        |    [SGLang](https://arxiv.org/abs/2312.07104)                     |
+| Oct 31     | Adaptive KV                                            | Fan Lai       |        |    Assignment 2 Release            |
 | Nov 5      | Quantization                                           | Fan Lai       |        |   [AWQ](https://arxiv.org/abs/2306.00978)                  |
-| Nov 7      | Advanced topics: RAG Systems                           | Fan Lai       |        |   [MoonCake](https://www.usenix.org/conference/fast25/presentation/qin)             |
-| Nov 12     | LLM Inference Scheduling                               | Fan Lai       |        |   [NIAVANA](https://www.usenix.org/conference/nsdi24/presentation/agarwal-shubham)              |
-| Nov 14     | Advanced topics: Caching GenAI                         | Fan Lai       |        |   Assignment 2 Due     |
-| Nov 19     | Buffer                                    			  |       |        |                        |
+| Nov 7      | Advanced topics: RAG Systems                           | Fan Lai       |        |    Mid-semester Report Due            |			
+| Nov 12     | LLM Inference Scheduling                               | Fan Lai       |        |    [MoonCake](https://www.usenix.org/conference/fast25/presentation/qin)             |
+| Nov 14     | Advanced topics: Caching GenAI                         | Fan Lai       |        |  [NIAVANA](https://www.usenix.org/conference/nsdi24/presentation/agarwal-shubham)      |
+| Nov 19     | Buffer                                    			  |       |        |       Assignment 2 Due                 |
 | Nov 21     | Guest Lecture                                          |               |        |                        |
 | Nov 22-30  | Fall Break                                             |               |        |                        |
 | Dec 3      | Final Presentations                                    |               |        |                        |
 | Dec 5      | Final Presentations                                    |               |        |                        |
 | Dec 10     | Final Presentations                                    |               |        |                        |
-| Dec 19     | Final Report Due                                       |               |        |                        |
+| Dec 19     | No Class                                       |               |        | Final Report Due                        |
 
  
  ## Tentative Grading
-**Groups**:  Panel discussion and research project will be performed in groups of 4-5 students. Form a group and [declare your group's membership and paper preferences](https://forms.gle/hShgRG9mcfC8fm9d8) by **Sept 8**. After this date, we will form groups from the remaining students.
+**Groups**:  Panel discussion and research project will be performed in groups of 4-5 students. Form a group and [declare your group's membership and paper preferences](https://forms.gle/TVkqSQAvUfKzsZGA7) by **Sept 8**. After this date, we will form groups from the remaining students.
 
 |                         | Weight | 
 | ------------------------| :------| 
@@ -128,8 +126,9 @@ You will have to complete substantive work an instructor-approved problem and ha
 
 You must meet the following milestones (unless otherwise specified in future announcements) to ensure a high-quality project at the end of the semester:
 
-* Turn in a 2-page draft proposal ([template](https://www.overleaf.com/read/bsrcbphcvyzc#d075e8)), plus as many pages as needed for references, by **Sept 24**. Remember to include the names and UIUC email addresses of the group members. 
-* Each group must schedule mid-semester discussion with the instructor during class hours or office hours in the week of **Oct 8**.
+* Turn in a 2-page draft proposal ([template](https://www.overleaf.com/read/bsrcbphcvyzc#d075e8)), plus as many pages as needed for references, by **Oct 1**. Remember to include the names and UIUC email addresses of the group members. 
+* Each group must schedule project discussion with the instructor during class hours or office hours in the week of **Oct 3** and **Oct 8**.
+* Each group must turn in a 3/4-page mid-semester report via email **on or before 6:00PM CST on Nov 7.** 
 * Each group must turn in an 8-page final report and your code via email **on or before 6:00PM CST on Dec 19.** The report must be submitted as a PDF file, with formatting similar to that of the papers you've read in the class. The self-contained (i.e., include ALL dependencies) code must be submitted as a zip file. Each zip file containing the code must include a README file with a step-by-step guide on how to compile and run the provided code.
 * You can find how to access GPU resources [here](./Resources/cloudlab.md)
 
