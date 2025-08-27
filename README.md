@@ -5,9 +5,9 @@
 | Member (NetID) | Role | Office Hours |
 | :---------------- | :--- | :----------- |
 | [Fan Lai](https://fanlai.me/) (fanlai) | Instructor | 3128 Siebel Center. W 3:00 PM – 4:00 PM
-| [Jimmy Shong](https://jiminator.github.io/PersonalSite/) (jimmys2) <br> [Jamlee Jin](https://www.linkedin.com/in/jianlijin) (jianlij2) | TAs |  Zoom. F 2:00 PM - 3:00 PM
+| [Jimmy Shong](https://jiminator.github.io/PersonalSite/) (jimmys2) <br> [Jamlee Jin](https://www.linkedin.com/in/jianlijin) (jianlij2) | TAs |  [Zoom](https://illinois.zoom.us/j/82765128831?pwd=jfktdEku4h0XkXjS2kfpNmOGz4X03N.1). F 2:00 PM - 3:00 PM
 
-**Piazza**:  *ALL* communication regarding this course must be via [Canvas](https://piazza.com/illinois/spring2025/cs598fla). This includes questions, discussions, announcements, assignments, as well as private messages.
+**Piazza**:  *ALL* communication regarding this course must be via [Canvas](https://canvas.illinois.edu/courses/63023). This includes questions, discussions, announcements, assignments, as well as private messages.
 
 ## Course Description
 **Learning Objectives**: This course will introduce the basic concepts and cutting-edge practices in the design and implementation of efficient software systems for supporting machine learning (ML) models, with a particular focus on Generative AI (GenAI). By the end of the course, students will be able to:
@@ -29,7 +29,7 @@ Note that this course is **NOT focused on AI methods**.  Instead, we will *focus
 
 | Date       | Topic                                  	            | Lecturer      | Slides | Assignment/Summary |
 |------------|:------------------------------------------------------:|:-------------:|--------|------------------------|
-| Aug 27     | Course Introduction and Logistics                      | Fan Lai       |        |                        |
+| Aug 27     | Course Introduction and Logistics                      | Fan Lai       | [Slides](./Slides/L1_overview.pdf)        |                        |
 | Aug 29     | Transformers                                           | Jimmy Shong   |        |                        |
 | Sept 3     | Transformers Deep Dive                                 | Fan Lai       |        |                        |
 | Sept 5     | Distributed Training Overview                          | Fan Lai       |        |   [DeepSeek-V3 Report (Sec 1-3)](https://arxiv.org/abs/2412.19437)            |
