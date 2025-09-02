@@ -30,7 +30,7 @@ Note that this course is **NOT focused on AI methods**.  Instead, we will *focus
 | Date       | Topic                                  	            | Lecturer      | Slides | Assignment/Summary |
 |------------|:------------------------------------------------------:|:-------------:|--------|------------------------|
 | Aug 27     | Course Introduction and Logistics                      | Fan Lai       | [Slides](./Slides/L1_overview.pdf)        |                        |
-| Aug 29     | Transformers                                           | Jimmy Shong   |        |                        |
+| Aug 29     | Transformers                                           | Jimmy Shong   | [Slides](./Slides/L2_transformers.pdf)       |                        |
 | Sept 3     | Transformers Deep Dive                                 | Fan Lai       |        |                        |
 | Sept 5     | Distributed Training Overview                          | Fan Lai       |        |   [DeepSeek-V3 Report (Sec 1-3)](https://arxiv.org/abs/2412.19437)            |
 | Sept 10    | Data Parallelism                                       | Fan Lai       |        |                        |
