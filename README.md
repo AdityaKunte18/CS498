@@ -32,7 +32,7 @@ Note that this course is **NOT focused on AI methods**.  Instead, we will *focus
 | Aug 27     | Course Introduction and Logistics                      | Fan Lai       | [Slides](./Slides/L1_overview.pdf)        |                        |
 | Aug 29     | Transformers                                           | Jimmy Shong   | [Slides](./Slides/L2_transformers.pdf)       |                        |
 | Sept 3     | Transformers Deep Dive                                 | Fan Lai       | [Slides](./Slides/L3_Transformers_Deep.pdf)        |                        |
-| Sept 5     | Distributed Training Overview                          | Fan Lai       |        |   [DeepSeek-V3 Report (Sec 1-3)](https://arxiv.org/abs/2412.19437)            |
+| Sept 5     | Distributed Training Overview                          | Fan Lai       | [Slides](./Slides/L4_distributed_training_overview.pdf)        |   [DeepSeek-V3 Report (Sec 1-3)](https://arxiv.org/abs/2412.19437)            |
 | Sept 10    | Data Parallelism                                       | Fan Lai       |        |                        |
 | Sept 12    | Tensor Parallelism                                     | Fan Lai       |        |   [LlamaRL](https://arxiv.org/abs/2505.24034)             |
 | Sept 17    | Pipeline Parallelism                                   | Fan Lai       |        |      |
