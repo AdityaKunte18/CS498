@@ -24,8 +24,10 @@ Note that this course is **NOT focused on AI methods**.  Instead, we will *focus
 
 **Prerequisites**:  Students are expected to have good programming skills and must have taken at least one systems-related course (from operating systems, databases, distributed systems, or networking). Having an ML/AI background is helpful but not required.
 
+
 ## Tentative Schedule
 *This is an evolving list and subject to changes due to the breakneck pace of AI*
+
 
 | Date       | Topic                                  	            | Lecturer      | Slides | Assignment/Summary |
 |------------|:------------------------------------------------------:|:-------------:|--------|------------------------|
@@ -61,7 +63,10 @@ Note that this course is **NOT focused on AI methods**.  Instead, we will *focus
 | Dec 10     | Final Presentations                                    |               |        |                        |
 | Dec 19     | No Class                                       |               |        | Final Report Due                        |
 
- 
+ ### Companion and Reviewer Group Assignments
+The assignments for these groups are found in the following [link](https://docs.google.com/spreadsheets/d/1TjZn-AdLd3xW1SLABc4sZ9gTYkR0doOq-uFludx8jgc/edit?usp=sharing).
+If you would like to change your time slot and have reached an agreement with another group for a swap, please email the TAs and cc all individuals involved. If any are discovered, please email the TAs ASAP so we can correct them.
+
  ## Tentative Grading
 **Groups**:  Panel discussion and research project will be performed in groups of 4-5 students. Form a group and [declare your group's membership and paper preferences](https://forms.gle/TVkqSQAvUfKzsZGA7) by **Sept 8**. After this date, we will form groups from the remaining students.
 
