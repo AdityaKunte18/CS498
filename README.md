@@ -24,10 +24,8 @@ Note that this course is **NOT focused on AI methods**.  Instead, we will *focus
 
 **Prerequisites**:  Students are expected to have good programming skills and must have taken at least one systems-related course (from operating systems, databases, distributed systems, or networking). Having an ML/AI background is helpful but not required.
 
-
 ## Tentative Schedule
 *This is an evolving list and subject to changes due to the breakneck pace of AI*
-
 
 | Date       | Topic                                  	            | Lecturer      | Slides | Assignment/Summary |
 |------------|:------------------------------------------------------:|:-------------:|--------|------------------------|
@@ -36,8 +34,8 @@ Note that this course is **NOT focused on AI methods**.  Instead, we will *focus
 | Sept 3     | Transformers Deep Dive                                 | Fan Lai       | [Slides](./Slides/L3_Transformers_Deep.pdf)        |                        |
 | Sept 5     | Distributed Training Overview                          | Fan Lai       | [Slides](./Slides/L4_distributed_training_overview.pdf)        |   [DeepSeek-V3 Report (Sec 1-3)](https://arxiv.org/abs/2412.19437)            |
 | Sept 10    | Data Parallelism                                       | Fan Lai       | [Slides](./Slides/L5_data_parallelism.pdf)        |                        |
-| Sept 12    | Tensor Parallelism                                     | Fan Lai       |        |   [LlamaRL](https://arxiv.org/abs/2505.24034)             |
-| Sept 17    | Pipeline Parallelism                                   | Fan Lai       |        |      |
+| Sept 12    | Tensor Parallelism                                     | Fan Lai       | [Slides](./Slides/L6_tensor_parallelism.pdf)        |   [LlamaRL](https://arxiv.org/abs/2505.24034)             |
+| Sept 17    | Pipeline Parallelism                                   | Fan Lai       | [Slides](./Slides/L7_pipeline_parallelism.pdf.pdf)         |      |
 | Sept 19    | Multi‑Dimensional Parallelism                          | Fan Lai       |        |   [Alpa](https://www.usenix.org/system/files/osdi22-zheng-lianmin.pdf)                 |
 | Sept 24    | Mixed Precision Training                               | Fan Lai       |        |    Assignment 1 Release                    |
 | Sept 26    | Memory Optimization                                    | Fan Lai       |        |   [ZeRO-style Data Parallelism](https://arxiv.org/abs/1910.02054)                  |
@@ -63,10 +61,7 @@ Note that this course is **NOT focused on AI methods**.  Instead, we will *focus
 | Dec 10     | Final Presentations                                    |               |        |                        |
 | Dec 19     | No Class                                       |               |        | Final Report Due                        |
 
- ### Companion and Reviewer Group Assignments
-The assignments for these groups are found in the following [link](https://docs.google.com/spreadsheets/d/1TjZn-AdLd3xW1SLABc4sZ9gTYkR0doOq-uFludx8jgc/edit?usp=sharing).
-If you would like to change your time slot and have reached an agreement with another group for a swap, please email the TAs and cc all individuals involved. If any are discovered, please email the TAs ASAP so we can correct them.
-
+ 
  ## Tentative Grading
 **Groups**:  Panel discussion and research project will be performed in groups of 4-5 students. Form a group and [declare your group's membership and paper preferences](https://forms.gle/TVkqSQAvUfKzsZGA7) by **Sept 8**. After this date, we will form groups from the remaining students.
 
