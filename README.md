@@ -102,6 +102,8 @@ In terms of grading criteria, each summary has 10 points in total. For each revi
 - 1: The summary item misses the point of the paper.
 - 0: The summary item is missing.
 
+Due to selecting the 8/10 paper summaries, late submissions won't be accepted and will receive 0 points.
+
 ### Post-Lecture Panel Discussion 
 To foster a deeper understanding of the papers and encourage critical thinking, lectures with paper summary will be followed by a panel discussion. This discussion will involve three distinct roles played by different student groups, simulating an interactive and dynamic scholarly exchange. 
 
