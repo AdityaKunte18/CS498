@@ -35,8 +35,8 @@ Note that this course is **NOT focused on AI methods**.  Instead, we will *focus
 | Sept 5     | Distributed Training Overview                          | Fan Lai       | [Slides](./Slides/L4_distributed_training_overview.pdf)        |   [DeepSeek-V3 Report (Sec 1-3)](https://arxiv.org/abs/2412.19437)            |
 | Sept 10    | Data Parallelism                                       | Fan Lai       | [Slides](./Slides/L5_data_parallelism.pdf)        |                        |
 | Sept 12    | Tensor Parallelism                                     | Fan Lai       | [Slides](./Slides/L6_tensor_parallelism.pdf)        |   [LlamaRL](https://arxiv.org/abs/2505.24034)             |
-| Sept 17    | Pipeline Parallelism                                   | Fan Lai       | [Slides](./Slides/L7_pipeline_parallelism.pdf.pdf)         |      |
-| Sept 19    | Multi‑Dimensional Parallelism                          | Fan Lai       |        |   [Alpa](https://www.usenix.org/system/files/osdi22-zheng-lianmin.pdf)                 |
+| Sept 17    | Pipeline Parallelism                                   | Fan Lai       | [Slides](./Slides/L7_pipeline_parallelism.pdf)         |      |
+| Sept 19    | Multi‑Dimensional Parallelism                          | Fan Lai       | [Slides](./Slides/L8_Multi_Parallelism.pdf)        |   [Alpa](https://www.usenix.org/system/files/osdi22-zheng-lianmin.pdf)                 |
 | Sept 24    | Mixed Precision Training                               | Fan Lai       |        |    Assignment 1 Release                    |
 | Sept 26    | Memory Optimization                                    | Fan Lai       |        |   [ZeRO-style Data Parallelism](https://arxiv.org/abs/1910.02054)                  |
 | Oct 1      | Finetuning Techniques                                  | Fan Lai       |        |  Project Proposal Due                     |
