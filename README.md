@@ -37,10 +37,10 @@ Note that this course is **NOT focused on AI methods**.  Instead, we will *focus
 | Sept 12    | Tensor Parallelism                                     | Fan Lai       | [Slides](./Slides/L6_tensor_parallelism.pdf)        |   [LlamaRL](https://arxiv.org/abs/2505.24034)             |
 | Sept 17    | Pipeline Parallelism                                   | Fan Lai       | [Slides](./Slides/L7_pipeline_parallelism.pdf)         |      |
 | Sept 19    | Multi‑Dimensional Parallelism                          | Fan Lai       | [Slides](./Slides/L8_Multi_Parallelism.pdf)        |   [Alpa](https://www.usenix.org/system/files/osdi22-zheng-lianmin.pdf)                 |
-| Sept 24    | Mixed Precision Training                               | Fan Lai       |        |    Assignment 1 Release                    |
-| Sept 26    | Memory Optimization                                    | Fan Lai       |        |   [ZeRO-style Data Parallelism](https://arxiv.org/abs/1910.02054)                  |
-| Oct 1      | Finetuning Techniques                                  | Fan Lai       |        |  Project Proposal Due                     |
-| Oct 3      | Buffer                       |        |        |   					     |
+| Sept 24    | Mixed Precision Training                               | Fan Lai       | [Slides](./Slides/L9_mixed_precision_training.pdf)        |    [Assignment 1 Release](./Homework/hw1/Assignment1.pdf)                    |
+| Sept 26    | **No Class** (Meetings to discuss project ideas)                                    | Fan Lai       |        |                     |
+| Oct 1      | Memory Optimization                                   | Fan Lai       |        |  Project Proposal Due                     |
+| Oct 3      | Finetuning Techniques                       |   Fan Lai     |        |   	[ZeRO-style Data Parallelism](https://arxiv.org/abs/1910.02054)				     |
 | Oct 8      | Course Project Proposal Feedback                       | Fan Lai       |        |          |
 | Oct 10     | Course Project Proposal Feedback                       | Fan Lai       |        |                        |
 | Oct 15     | Guest Lecture                                          |               |        |     Assignment 1 Due                   |
@@ -132,7 +132,7 @@ You must meet the following milestones (unless otherwise specified in future ann
 * Each group must schedule project discussion with the instructor during class hours or office hours in the week of **Oct 3** and **Oct 8**.
 * Each group must turn in a 3/4-page mid-semester report via email **on or before 6:00PM CST on Nov 7.** 
 * Each group must turn in an 8-page final report and your code via email **on or before 6:00PM CST on Dec 19.** The report must be submitted as a PDF file, with formatting similar to that of the papers you've read in the class. The self-contained (i.e., include ALL dependencies) code must be submitted as a zip file. Each zip file containing the code must include a README file with a step-by-step guide on how to compile and run the provided code.
-* You can find how to access GPU resources [here](./Resources/cloudlab.md)
+* You can find how to access GPU resources [here](./Resources/cloudlab.md).
 
 ### **Acknowledgements**
 This course alternates with Prof. Minjia Zhang's [CS 498](https://minjiazhang.github.io/courses/cs-mlsys-498-2025spring.html). Big thanks to Prof. Minjia Zhang!
