@@ -50,9 +50,10 @@ Cluster Assignments:
         export MASTER_ADDR=10.x.x.x
         ```
       * **Important:** If this variable is not set correctly, the distributed job maybe hang forever, and you will need to close the terminal session and reopen. 
-      * **Note** The `MASTER_ADDR` stays the same across nodes, and the `GLOO_SOCKET_IFNAME` is the same among worker nodes, and is different from the `GLOO_SOCKET_IFNAME` of the master node.
+      * **Note** We recommend to set the `MASTER_ADDR` stays the same across nodes, and the `GLOO_SOCKET_IFNAME` is the same among worker nodes, and is different from the `GLOO_SOCKET_IFNAME` of the master node. However, during the ping test, if you encounter `Destination Host Unreachable` error on any of the worker nodes, just switch the network interface to the same one used in the master node.
       * Example: Let's use node-0 as the master-node. In this example, `ifconfig` on node-0 gives us a node interface `enp94s0f0` with an inet of `10.10.2.2`, and node interface `enp94s0f1` with an inet of `10.10.1.2`. `ifconfig` on node-1 gives us a node interface `enp94s0f0` with an inet of `10.10.3.2`, and node interface `enp94s0f1` with an inet of `10.10.1.1`. `ifconfig` on node-2 gives us a node interface `enp94s0f0` with an inet of `10.10.3.1`, and node interface `enp94s0f1` with an inet of `10.10.2.1`. We set the master address in all 3 nodes with `export MASTER_ADDR=10.10.2.2`. We set the node-0's gloo socket with `export GLOO_SOCKET_IFNAME=enp94s0f0`, and node-1 and node-2's gloo sockets with `export GLOO_SOCKET_IFNAME=enp94s0f1`.
      3. To check if this was done properly, you can run `ping -I $GLOO_SOCKET_IFNAME $MASTER_ADDR` on all nodes, and it should run without issue.
+      * If you encounter `Destination Host Unreachable` error on any of the worker nodes, just switch the network interface to the same one used in the master node.
 
   ## How to run training:
 
