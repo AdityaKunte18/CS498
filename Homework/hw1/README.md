@@ -12,11 +12,11 @@ Most of the training workflow is already implemented in `run.py`. Once you finis
 We created multiple clusters and assigned each student to **one** cluster. We have assigned students to clusters based on their last name. **Please run your experiments only on your assigned cluster** to avoid overloading others. If students run into any issues due to the clusters getting overloaded, please email us, and we will assign you to new cluster that has less congestion.
 
 Cluster Assignments:
-* HW1_Cluster_1: Alaybeyi-Hong
-* HW1_Cluster_2: Hu-Lu
-* HW1_Cluster_3: Luo-Sankaran
-* HW1_Cluster_4: Sen-Wu
-* HW1_Cluster_5: Xie-Zhuang
+* HW1-Cluster-1: Alaybeyi-Hong
+* HW1-Cluster-2: Hu-Lu
+* HW1-Cluster-3: Luo-Sankaran
+* HW1-Cluster-4: Sen-Wu
+* HW1-Cluster-5: Xie-Zhuang
 
 1. **Familiarize yourself with CloudLab**
 
