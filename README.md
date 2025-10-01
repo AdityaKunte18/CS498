@@ -39,19 +39,19 @@ Note that this course is **NOT focused on AI methods**.  Instead, we will *focus
 | Sept 19    | Multi‑Dimensional Parallelism                          | Fan Lai       | [Slides](./Slides/L8_Multi_Parallelism.pdf)        |   [Alpa](https://www.usenix.org/system/files/osdi22-zheng-lianmin.pdf)                 |
 | Sept 24    | Mixed Precision Training                               | Fan Lai       | [Slides](./Slides/L9_mixed_precision_training.pdf)        |    [Assignment 1 Release](./Homework/hw1/Assignment1.pdf)                    |
 | Sept 26    | **No Class** (Meetings to discuss project ideas)                                    | Fan Lai       |        |                     |
-| Oct 1      | Memory Optimization                                   | Fan Lai       |        |  Project Proposal Due                     |
+| Oct 1      | [Memory Optimization](./Slides/L10_training_memory_opt.pdf)                                   | Fan Lai       |        |  Project Proposal Due                     |
 | Oct 3      | Finetuning Techniques                       |   Fan Lai     |        |   	[ZeRO-style Data Parallelism](https://arxiv.org/abs/1910.02054)				     |
 | Oct 8      | Course Project Proposal Feedback                       | Fan Lai       |        |          |
 | Oct 10     | Course Project Proposal Feedback                       | Fan Lai       |        |                        |
-| Oct 15     | Guest Lecture                                          |               |        |     Assignment 1 Due                   |
-| Oct 17     | Guest Lecture                                          |               |        |                        |
+| Oct 15     | Course Project Proposal Feedback                      |  Fan Lai             |        |     Assignment 1 Due                   |
+| Oct 17     | Efficient Machine Learning for Intelligent Machines (Guest Lecture)                                          |  Chenfeng Xu             |        |                        |
 | Oct 22     | Inference Overview                                     | Fan Lai       |        |   [Speculative Decoding](https://arxiv.org/abs/2211.17192) |
 | Oct 24     | Batch Serving Techniques                               | Fan Lai       |        |   [DistServe](https://arxiv.org/abs/2401.09670)            |
 | Oct 29     | Paged Attention                                        | Fan Lai       |        |    [SGLang](https://arxiv.org/abs/2312.07104)                     |
 | Oct 31     | Adaptive KV                                            | Fan Lai       |        |    Assignment 2 Release            |
 | Nov 5      | Quantization                                           | Fan Lai       |        |   [AWQ](https://arxiv.org/abs/2306.00978)                  |
-| Nov 7      | Advanced topics: RAG Systems                           | Fan Lai       |        |    Mid-semester Report Due            |			
-| Nov 12     | LLM Inference Scheduling                               | Fan Lai       |        |    [MoonCake](https://www.usenix.org/conference/fast25/presentation/qin)             |
+| Nov 7      |  LLM Inference Scheduling                          | Fan Lai       |        |    Mid-semester Report Due            |			
+| Nov 12     | Advanced topics: RAG Systems                               | Fan Lai       |        |    [MoonCake](https://www.usenix.org/conference/fast25/presentation/qin)             |
 | Nov 14     | Advanced topics: Caching GenAI                         | Fan Lai       |        |  [NIAVANA](https://www.usenix.org/conference/nsdi24/presentation/agarwal-shubham)      |
 | Nov 19     | Buffer                                    			  |       |        |       Assignment 2 Due                 |
 | Nov 21     | Guest Lecture                                          |               |        |                        |
