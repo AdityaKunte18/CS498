@@ -19,9 +19,9 @@ def server(params, opt, world):
         buf = torch.empty_like(flat_grad)
         r = dist.irecv(buf, src=src)
         r.wait()
-        agg.add_(buf)
+        agg += buf
 
-    agg.div_(world)
+    agg /= world
 
     synced_grads = _unflatten_dense_tensors(agg, [p.grad for p in params])
     # ---- set averaged grads locally & step ----
