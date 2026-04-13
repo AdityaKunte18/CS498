@@ -1,5 +1,6 @@
 # CS 498: Machine Learning Systems (F'25)
-
+Note - I am not able to change this repository's visibility due to it being a fork of the original. 
+Please follow UIUC's academic integrity policies accordingly.
 ## Logistics
 **Lectures**: 1310 Digital Computer Laboratory, WF: 11:00 AM – 12:15 PM
 | Member (NetID) | Role | Office Hours |
